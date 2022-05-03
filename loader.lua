@@ -1,5 +1,5 @@
 local delta = game:HttpGet("https://raw.githubusercontent.com/PotSmoker2137/spermadupacipa/main/delta.lua")
-local ui = game:HttpGet("https://pastebin.com/raw/FQLiP9Ps")
+local ui = game:HttpGet("https://raw.githubusercontent.com/10009710009719100097119100/general-shoes/main/ui.lua")
 
 writefile("ui_nxwr.lua", ui)
 
