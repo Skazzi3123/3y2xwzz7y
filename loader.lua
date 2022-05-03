@@ -43,7 +43,7 @@ do
     if gameScript ~= nil then
         if isfile('ui_nxwr.lua') then
             loadstring(readfile('ui_nxwr.lua'))();
-            library.title = 'Nxwr Projects | Project Delta GUI 0.1v - '..gameName;
+            library.title = 'Nxwr Projects | 0.1v - '..gameName;
             library.gamename = gameName;
             library:Init();
             repeat task.wait() until library.hasInit == true
